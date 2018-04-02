@@ -407,13 +407,13 @@
                 {
                   "status": "Open",
                   "severity": "Medium",
-                  "title": "Disclosure of profile/document",
+                  "title": "Disclosure of profile",
                   "type": "Information disclosure"
                 },
                 {
                   "status": "Open",
                   "severity": "Medium",
-                  "title": "Tampering of profile/document",
+                  "title": "Tampering of profile",
                   "type": "Tampering"
                 }
               ],
@@ -652,13 +652,21 @@
                 }
               ],
               "z": 26,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Document disclosure",
+                  "type": "Information disclosure"
+                }
+              ],
               "attrs": {
                 ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
+                  "class": "marker-target hasOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasOpenThreats isInScope"
                 }
               }
             },
@@ -694,13 +702,21 @@
                 }
               ],
               "z": 27,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Document disclosure",
+                  "type": "Information disclosure"
+                }
+              ],
               "attrs": {
                 ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
+                  "class": "marker-target hasOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasOpenThreats isInScope"
                 }
               }
             }
