@@ -458,12 +458,14 @@
               ],
               "z": 17,
               "hasOpenThreats": false,
+              "outOfScope": true,
+              "reasonOutOfScope": "provide by Amazon",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasNoOpenThreats isOutOfScope"
                 }
               }
             },
@@ -497,12 +499,14 @@
               ],
               "z": 18,
               "hasOpenThreats": false,
+              "outOfScope": true,
+              "reasonOutOfScope": "provided by Amazon",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasNoOpenThreats isOutOfScope"
                 }
               }
             },
