@@ -518,7 +518,7 @@
                   "status": "Open",
                   "severity": "Medium",
                   "type": "Information disclosure",
-                  "title": "Authentication token / profile / document disclosure"
+                  "title": "Authentication token / profile disclosure"
                 }
               ],
               "attrs": {
