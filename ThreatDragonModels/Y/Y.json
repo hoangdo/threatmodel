@@ -86,7 +86,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "profile query",
+                      "text": "profile read/write",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -527,7 +527,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "profile",
+                      "text": "profile data",
                       "font-weight": "400",
                       "font-size": "small"
                     }
