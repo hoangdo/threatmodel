@@ -344,6 +344,12 @@
                   "severity": "Medium",
                   "type": "Information disclosure",
                   "title": "Unauthorized access of profile/document"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "title": "Tampering of profile/document"
                 }
               ],
               "attrs": {
