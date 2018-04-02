@@ -725,9 +725,11 @@
                   "type": "Elevation of privilege"
                 }
               ],
+              "outOfScope": true,
+              "reasonOutOfScope": "controlled by Amazon",
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isOutOfScope"
                 },
                 "text": {
                   "text": "amazon S3"
@@ -831,6 +833,89 @@
                 },
                 ".connection": {
                   "class": "connection hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "913c1144-3277-4599-9bfc-d8bb22127275"
+              },
+              "target": {
+                "id": "3bacc8f8-dfe1-4690-8f70-e7869454f0db"
+              },
+              "vertices": [
+                {
+                  "x": 657,
+                  "y": 523
+                }
+              ],
+              "id": "8320cbb4-5f98-437f-aa7c-a579746cfa7a",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.4896090419205543,
+                    "offset": 9.295319505035877
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "auth token",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 28,
+              "hasOpenThreats": false,
+              "outOfScope": true,
+              "reasonOutOfScope": "provided by Amazon",
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isOutOfScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "3bacc8f8-dfe1-4690-8f70-e7869454f0db"
+              },
+              "target": {
+                "id": "913c1144-3277-4599-9bfc-d8bb22127275"
+              },
+              "vertices": [
+                {
+                  "x": 812,
+                  "y": 675
+                }
+              ],
+              "id": "ff3bda8a-d73d-4207-b1ca-54a81010eb29",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 19",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 29,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
                 }
               }
             }
