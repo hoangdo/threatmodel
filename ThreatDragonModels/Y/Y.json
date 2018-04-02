@@ -26,16 +26,42 @@
               "angle": 0,
               "id": "dea1dff4-8df6-4eba-a08b-d92263c166a4",
               "z": 1,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "DDoS",
+                  "type": "Denial of service"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Elevation of privilege",
+                  "title": "Unauthorized access of profile"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "title": "No-auditing on important data accesss"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "title": "Profile data disclosure"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "backend"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
