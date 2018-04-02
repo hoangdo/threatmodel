@@ -338,6 +338,12 @@
                   "severity": "High",
                   "type": "Spoofing",
                   "title": "Identity spoofing"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "title": "Unauthorized access of profile/document"
                 }
               ],
               "attrs": {
