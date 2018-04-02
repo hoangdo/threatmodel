@@ -901,7 +901,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 19",
+                      "text": "auth result",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -910,12 +910,14 @@
               ],
               "z": 29,
               "hasOpenThreats": false,
+              "outOfScope": true,
+              "reasonOutOfScope": "controlled by Amazon",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasNoOpenThreats isOutOfScope"
                 }
               }
             }
