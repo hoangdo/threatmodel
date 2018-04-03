@@ -219,6 +219,12 @@
                   "severity": "Medium",
                   "title": "Authorization token disclosure",
                   "type": "Information disclosure"
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "title": "Spoofing identity",
+                  "type": "Spoofing"
                 }
               ],
               "attrs": {
