@@ -82,7 +82,7 @@
               "threats": [
                 {
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "title": "Unauthorized access of profile from DBA",
                   "type": "Elevation of privilege"
                 }
