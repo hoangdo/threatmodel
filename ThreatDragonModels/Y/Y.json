@@ -36,7 +36,7 @@
                 },
                 {
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "type": "Elevation of privilege",
                   "title": "Unauthorized access of profile from another user"
                 },
