@@ -337,7 +337,7 @@
               "threats": [
                 {
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "title": "Identity spoofing",
                   "type": "Spoofing"
                 },
@@ -501,7 +501,8 @@
                   "status": "Open",
                   "severity": "High",
                   "title": "Identity spoofing",
-                  "type": "Spoofing"
+                  "type": "Spoofing",
+                  "description": "CloudFare SSL termination"
                 },
                 {
                   "status": "Open",
@@ -561,7 +562,7 @@
               "threats": [
                 {
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "type": "Information disclosure",
                   "title": "Authentication token / profile disclosure"
                 }
