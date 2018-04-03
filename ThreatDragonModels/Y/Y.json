@@ -8,7 +8,7 @@
     "contributors": [],
     "diagrams": [
       {
-        "title": "A threat model",
+        "title": "YMVP threat model",
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "id": 0,
         "diagramJson": {
