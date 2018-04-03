@@ -204,7 +204,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "auth token",
+                      "text": "identity/auth token",
                       "font-weight": "400",
                       "font-size": "small"
                     }
