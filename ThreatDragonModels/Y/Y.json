@@ -433,7 +433,7 @@
                 },
                 {
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "type": "Information disclosure",
                   "title": "Unauthorized access of profile/document"
                 },
@@ -442,6 +442,13 @@
                   "severity": "Medium",
                   "type": "Tampering",
                   "title": "Tampering of profile/document"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "title": "Tampering of the React Native package",
+                  "description": "To be explored"
                 }
               ],
               "attrs": {
