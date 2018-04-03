@@ -728,22 +728,22 @@
               "threats": [
                 {
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "title": "Unauthorized access of document",
                   "type": "Elevation of privilege"
                 },
                 {
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "title": "Unauthorized access of document from system admin",
                   "type": "Elevation of privilege"
                 }
               ],
-              "outOfScope": true,
+              "outOfScope": false,
               "reasonOutOfScope": "controlled by Amazon",
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasOpenThreats isOutOfScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "amazon S3"
@@ -786,11 +786,12 @@
               "threats": [
                 {
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "title": "Document disclosure",
                   "type": "Information disclosure"
                 }
               ],
+              "reasonOutOfScope": "",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasOpenThreats isInScope"
@@ -836,7 +837,7 @@
               "threats": [
                 {
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "title": "Document disclosure",
                   "type": "Information disclosure"
                 }
@@ -884,7 +885,7 @@
               "z": 28,
               "hasOpenThreats": false,
               "outOfScope": true,
-              "reasonOutOfScope": "provided by Amazon",
+              "reasonOutOfScope": "provided by Amazon, JWT check???",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
