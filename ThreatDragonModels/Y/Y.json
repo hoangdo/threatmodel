@@ -499,19 +499,19 @@
               "threats": [
                 {
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "title": "Identity spoofing",
                   "type": "Spoofing"
                 },
                 {
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "title": "Disclosure of profile",
                   "type": "Information disclosure"
                 },
                 {
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "title": "Tampering of profile",
                   "type": "Tampering"
                 }
